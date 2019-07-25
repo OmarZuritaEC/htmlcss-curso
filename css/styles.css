@@ -1,0 +1,151 @@
+/* Import */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+/* Variables */
+:root{
+--blue-color: #152F70;
+--white-color: #FFFFFF;
+--space: 10px;
+--normal: 12px;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+    font-size: var(--normal);
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+    display: flex;
+    background-color: var(--blue-color);
+    color: var(--white-color);
+    padding: var(--space);
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img
+{
+    width: 50%;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    padding: var(--space);
+    list-style: none;
+}
+
+nav li a {
+    font-size: 16px;
+    color:gainsboro;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    color: var(--white-color);
+}
+
+/* section area */
+
+.main_section {
+    padding: 15%;
+    text-align: center;
+}
+
+.products {
+    background-image: url("../images/curve.webp");
+    background-size: cover;
+    background-position: center top;
+    padding: 10% 15% 10% 15%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.product {
+    padding: var(--space);
+    margin-top: -260px;
+}
+
+.product .content {
+    padding: var(--space);
+    background-color: var(--white-color);
+    text-align: center;
+}
+
+.image_content img {
+    text-align: center;
+}
+
+.main_buttom {
+    background-color: var(--blue-color);
+    width: 100%;
+    padding: var(--space);
+    font-size: var(--normal);
+    color: var(--white-color);
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+
+.main_buttom:hover {
+    background-color: rgb(53, 41, 219);
+}
+
+.benefits {
+    display: flex;
+    padding: 10% 15% 10% 15%;
+    box-shadow: 0 0 1px #c1bcbc;
+    justify-content: space-around;
+}
+
+.benefit {
+    padding: var(--space);
+    text-align: center;
+}
+
+.benefit .content {
+    padding: var(--space);
+    
+}
+
+.image_benefit img{
+    text-align: center;
+    height: 180px;
+}
+
+.clientes {
+    display: flex;
+    padding: 10% 15% 10% 15%;
+    justify-content: space-around;
+    
+}
+
+.cliente {
+padding: var(--space);
+text-align: center;
+box-shadow: 0 0 5px #c1bcbc;
+margin: 10px;
+}
+
+.cliente .content{
+padding: var(--space);
+}
+
+.image_cliente img {
+width: 98%;
+text-align: center;
+}
+
+footer{
+    margin-top: 40px;
+    padding: 5px 15px;
+    background-color: rgb(42, 41, 105);
+    color: var(--white-color);
+    display: flex;
+    justify-content: space-between;
+}
