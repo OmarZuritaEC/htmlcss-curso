@@ -49,6 +49,14 @@ nav li a:hover {
     color: var(--white-color);
 }
 
+p, label{
+    font-size: var(--normal);
+}
+
+label{
+    padding-bottom: 5px;
+}
+
 /* section area */
 
 .main_section {
@@ -142,6 +150,33 @@ width: 98%;
 text-align: center;
 }
 
+/* ------------ Venta */
+.modulo_pago {
+    background-color: var(--white-color);
+    box-shadow: 0 0 1px #c1bcbc;
+    padding: var(--space);
+    padding-top: 20px;
+    
+}
+
+.modulo_pago_images {
+    width: 100%;
+    text-align: center;
+}
+
+.modulo_pago_images img{
+    max-width: 150px;
+}
+
+.modulo_pago input{
+    width: 100%;
+    height: 33px;
+    margin-bottom: var(--space);
+    margin-top: 5px;
+    border-radius: 4px;
+    border: 1px solid #c1bcbc;
+}
+
 footer{
     margin-top: 40px;
     padding: 5px 15px;
@@ -150,3 +185,4 @@ footer{
     display: flex;
     justify-content: space-between;
 }
+
